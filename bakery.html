@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buns Of Steel </title>
+    <link rel="stylesheet" href="bakery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        font-family: 'Quicksand', sans-serif;
+        color: rgb(255, 253, 253);
+        padding: 0%;
+        margin: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 40px;
+        top: 10px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    .mid {
+        margin: 12px auto;
+        width: 40%;
+        display: block;
+        /* border: 2px solid blue; */
+        top: 20px;
+    }
+
+    .right {
+        position: absolute;
+        right: 23px;
+        top: 20px;
+        display: inline block;
+        /* border: 2px solid red; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: rgb(253, 252, 252);
+        padding: 15px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+
+    }
+
+    #logo {
+        width: 70px;
+        /* filter: invert(100%); */
+    }
+
+    #logan {
+        text-align: center;
+        font-size: 13px;
+        color: rgba(224, 224, 230, 0.952);
+    }
+
+    #dagger {
+        width: 37px;
+        height: 25px;
+        filter: invert(100%);
+    }
+
+    .btn {
+        margin: 0px 18px;
+        color: black;
+        background-color: gray padding: 3px 8px;
+        border: 1px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #order {
+        padding: 3px;
+        background-color: goldenrod;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(173, 168, 168);
+    }
+
+    #logo:hover {
+        filter: invert(100%);
+        cursor: pointer;
+    }
+
+    .heading {
+        /* border: 2px solid yellow; */
+        width: 100%;
+        text-align: center;
+        margin: 190px 1px;
+        color: whitesmoke padding;
+
+    }
+
+    #title {
+        font-family: 'Dancing Script', cursive;
+        margin: 29px 356px;
+    }
+
+    #title:hover {
+        cursor: pointer;
+        color: rgb(201, 194, 194);
+    }
+
+    #description {
+
+        text-align: center;
+        margin: 25px 86px;
+    }
+
+    #shoop {
+        font-family: 'Quicksand', sans-serif;
+        border: 3px solid whitesmoke;
+        border-radius : 10px;
+        font-size :15px;
+        margin-top :15px;
+        background-color: goldenrod;
+    }
+    #shoop:hover {
+        background-color :whitesmoke;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo2.png" id="logo">
+            <div id="logan">Buns of steel</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn" id="order">Order Menu </button>
+            <button class="btn"><img src="button_cart_hl.svg" id="dagger" />
+            </button>
+
+    </header>
+    <div class="heading">
+        <h3 id="product">WELCOME TO BUNS OF STEEL CAFE</h3>
+        <h1 id="title">"Baking The Worlds Best Breads"</h1>
+        <h4 id="description">100% natural, fresh baked goods. Purchase our tasty cakes and sweets for your next event or
+            family dinner at our online shop and save more money than anywhere.</h4>
+        <button id="shoop">Order Now</button>
+
+
+    </div>
+</body>
+
+</html>
